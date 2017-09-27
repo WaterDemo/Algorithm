@@ -1,0 +1,7 @@
+commit_id
+
+1.git reset —hard commit_id
+2.git log | head -n 20
+3.git diff commit_id1 commit_id2 > diff.txt
+4.cp changed_filename dst
+5.git reset —hard commit_id2; cp before_filename dst
